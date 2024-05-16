@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+
+video{
+    width: 1000px;
+    height: 1000px;
+    border: solid white 5px;
+
+}
+
+
+
+h4 {
+    font-size: 25px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 52ch;
+    line-height: 1.5;
+    padding: 1em;
+}
+
+
+
+
+.section-heading {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 4px solid rgb(250, 207, 207);
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(250, 207, 207);
+    width: auto;
+    z-index: 1000;
+}
+
+.heading-add-row {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* all body  */
+
+
+
+
+
+:root {
+    --color: #282727;
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.container1 {
+    text-align: center;
+    color: var(--color);
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.top-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* opacity: 0.8; */
+}
+
+
+
+#cart-btn {
+    font-size: 25px;
+    color: var(--color);
+    position: absolute;
+    right: 20px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    width: 44px;
+    height: 38px;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 150px;
+    margin-bottom: 150px;
+    padding: 20px;
+    z-index: 1000;
+}
+
+
+@media (max-width:600px) {
+    h1.title {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:600px) {
+    .navbar-brand {
+        text-align: center;
+        padding: 0;
+        width: 285px;
+    }
+}
+
+
+
+/* navbar style start */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8)!important;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.nav-link {
+    display: inline-block;
+    color: rgb(240, 184, 184);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    padding: 5px 70px;
+    color: white;
+    background-color: var(--color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 1.25rem;
+    z-index: 1000;
+    
+}
+.navbar-toggler {
+    z-index: 1000;
+}
+
+/* navbar style end */
+
+
+
+.blank,
+.other {
+    width: 100%;
+    min-height: 100px;
+    background-color: transparent;
+}
+
+.second {
+    padding: 20px;
+    background: url(https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2565&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-start;
+}
+.recipe-box {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+
+    background-color: var(--color);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+}
+
+
+
+
+
+a .fa-circle-plus {
+    font-size: 35px;
+    background-color: transparent;
+    margin-left: 5px;
+}
+.add-btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: .5px;
+
+}
+
+/* Hover Recipe Cards stylesheet start  */
+
+
+
+body {
+    background-color: #000;
+}
+
+.ag-courses_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+
+    margin: 15px;
+
+    overflow: hidden;
+
+    border-radius: 28px;
+}
+
+.ag-courses-item_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #121212;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media(max-width:600px) {
+    .ag-courses-item_link {
+        width: 330px;
+        height: 175px;
+    }
+}
+
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ag-courses-item_link:hover .ag-courses-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+}
+
+.ag-courses-item_title {
+    min-height: 87px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    font-weight: 200;
+    font-size: 30px;
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+}
+
+.method-title {
+    text-decoration: overline rgb(240, 184, 184);
+    margin-top: 5px;
+    overflow: hidden;
+    font-weight: 100;
+    font-size: 20px;
+    color: #FFF;
+    z-index: 2;
+    position: relative;
+}
+
+@media(max-width:600px) {
+    .method-title {
+        margin-top: 30px;
+        text-decoration:underline rgb(240, 184, 184) 2px !important;
+    }
+}
+
+
+
+.ag-courses-item_date-box {
+    font-size: 22px;
+    color: #FFF;
+font-weight: 200;
+    z-index: 2;
+    position: relative;
+}
+
+.ag-courses-item_date {
+    font-weight: 100;
+    color: rgb(240, 184, 184);
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+}
+
+.ag-courses-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: rgb(240, 184, 184);
+
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+
+    border-radius: 50%;
+
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+    background-color: #3ecd5e;
+}
+
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+    background-color: #e44002;
+}
+
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+    background-color: #952aff;
+}
+
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+    background-color: #cd3e94;
+}
+
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+    background-color: #4c49ea;
+}
+
+
+
+@media only screen and (max-width: 979px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    }
+
+    .ag-courses-item_title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ag-format-container {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width: 639px) {
+    .ag-courses_item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .ag-courses-item_title {
+        min-height: 72px;
+        line-height: 1;
+
+        font-size: 24px;
+    }
+
+    .ag-courses-item_link {
+        padding: 22px 40px;
+    }
+
+    .ag-courses-item_date-box {
+        font-size: 16px;
+    }
+}
+
+
+/* Hover Recipe Cards stylesheet end  */
+
+/* home button hover effect start */
+
+.home-flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.btn-home {
+    padding: 12px;
+    color: #f7f7f7;
+    text-decoration: none;
+    border: 2px solid rgb(243, 208, 208);
+    width: 220px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 15px;
+    margin: 25px;
+    border-radius: 2px;
+}
+
+.btn-home:hover {
+    background-color: rgb(243, 208, 208);
+    color: rgb(51, 51, 51);
+}
+
+/* home button hover effect end */
+
+.footer {
+    text-align: center;
+}

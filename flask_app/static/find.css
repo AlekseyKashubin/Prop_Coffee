@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+
+:root {
+    --color: rgb(33, 37, 41);
+}
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+
+.container1 {
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.top-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* opacity: 0.8; */
+}
+
+@media (max-width:600px) {
+    .container1 {
+        height: 900px;
+        min-height: 900px !important;
+    }
+}
+#cart-btn {
+    font-size: 25px;
+    color: var(--color);
+    position: absolute;
+    right: 20px;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    width: 44px;
+    height: 38px;
+}
+
+
+h1 {
+
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 100px;
+    z-index: 1000;
+    margin: 50px;
+}
+
+@media (max-width:600px) {
+    h1.title {
+        font-size: 50px;
+        margin: 25px;
+    }
+}
+
+
+
+
+/* navbar style start */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5)!important;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.nav-link {
+    display: inline-block;
+    color: rgb(240, 184, 184);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: .875rem;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    padding: 5px 70px;
+    color: white;
+    background-color: var(--color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 1.25rem;
+    z-index: 1000;
+    
+}
+.navbar-toggler {
+    z-index: 1000;
+}
+
+/* navbar style end */
+
+
+
+
+/* store locator */
+
+.lower-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media(max-width:600px) {
+    .navbar-brand {
+        text-align: center;
+        padding: 0;
+        width: 285px;
+    }
+}
+
+/* home button hover effect start */
+
+.home-flex {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.btn-home {
+    padding: 12px;
+    color: #f7f7f7;
+    text-decoration: none;
+    border: 2px solid rgb(243, 208, 208);
+    width: 220px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 15px;
+    margin: 25px;
+    border-radius: 2px;
+}
+
+.btn-home:hover {
+    background-color: rgb(243, 208, 208);
+    color: rgb(51, 51, 51);
+}
+
+/* home button hover effect end */
+
+.footer {
+    text-align: center;
+}
+
+@media(max-width:600px) {
+    iframe {
+        width: 400px;
+        height: 450px;
+    }
+
+}
